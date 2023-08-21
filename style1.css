@@ -1,0 +1,210 @@
+body
+{
+    background-color: powderblue;
+    margin:0px;
+}
+.main
+{
+}
+.header
+{
+    width:100%;
+    height: 65px;
+    background-color: #fceb03;
+}
+.logo
+{
+    height:60px;
+    width:30%;float:left;
+}
+.country
+{
+    width: 30px;
+    height:20px;
+    margin:20px;float:left;
+   
+}
+.labelD:hover
+{
+   color: rgb(149, 164, 182);
+   vertical-align: top;float:left;
+   
+
+}
+td
+{color: rgb(177, 185, 194);
+vertical-align: top;
+
+}
+.search
+{
+    float:left;
+    height: 30px;
+    width:40%;
+    padding-top: 5px;
+    padding-left: 2px;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+    margin-top: 10px; 
+    cursor:vertical-text;
+    display: inline-block;
+    cursor: text;
+    border:none;
+}
+.button1
+{
+    float:right; 
+    height: 35px;
+    width:45px;
+    vertical-align: middle;
+    background-color: #fceb03;
+    font-size:20px;
+    font-family:Myriad Hebrew;
+    margin-top: 10px; 
+    outline:none;cursor:pointer;
+}
+.button2
+{
+    float:left; 
+    height: 30px;
+    width:125px;
+    vertical-align: middle;
+    padding-left:15px;
+    background-color: #fceb03;
+    font-size:20px;
+    font-family:Cairo;
+    margin-top: 10px; 
+    outline:none;cursor:pointer;
+}
+.button3
+{
+    float:left; 
+    height: 35px;
+    width:85px;
+    padding-left: 10px;
+    vertical-align: middle;
+    background-color: #fceb03;
+    font-size:20px;
+    font-family:Cairo;
+    margin-top: 10px; 
+    outline:none;cursor:pointer;
+}
+.login
+{
+    float:left;
+    height:60px;
+    width: 110px;
+    padding-left: 15px;padding-top: 5px;
+    vertical-align: middle; 
+}
+.menu
+{
+    width:100%;
+    height: 45px;
+        background-color: #f5f1f1;
+}
+    
+.cat1
+{
+    float:left;
+    padding-top:20px ;
+    padding-left:25px ;
+    padding-right:15px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    cursor:pointer;display: flex;outline:none;
+    text-decoration: none;
+    color:#5856d6;
+    font-family:Arial;
+    font-size: 14px;
+    font-style:initial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    min-width:200px;font-weight:700;
+}
+.cat2
+{
+    float:left;
+    padding-top:20px ;
+    padding-left:20px ;
+    padding-right:15px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    cursor:pointer;display: flex;outline:none;
+    text-decoration: none;
+    color:#1a1a1d;
+    font-family:Arial;
+    font-size: 14px;
+    font-weight:700;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    min-width: 65px;
+    display: inline-block;
+ 
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.cat2:hover
+{
+    background-color:rgb(255, 255, 255);
+}
+div.left
+{
+    float:left; 
+    height: 300px;
+    width:60%;
+    background-color:rgb(192, 212, 214);
+}
+div.right
+{
+    float:left; 
+    height: 310px;
+    width:40%;
+    background-color:rgb(51, 121, 97);
+    position:relative;
+}
+.displayadd
+{
+    width:100%;
+    height: 65px;
+    background-color: #a6dfb4;
+    
+}
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .footer
+  {
+    float:left;
+    
+    width:100%;
+    height:35px;
+    font-size: larger;
+    padding-top:150px;
+  }
+.textpara
+{ 
+    padding-top:20px;
+    color: rgb(7, 26, 39);
+    background-color: #bce7e7;width:100%;
+    height:45px;
+}
+.lastdiv
+{
+    float:left;
+    
+    width:100%;
+    height:35px;
+    font-size: larger;
+    padding-top:50px;
+    padding-left: 450px;
+    vertical-align: middle;
+  }
