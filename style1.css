@@ -39,9 +39,9 @@ vertical-align: top;
 .search
 {
     float:left;
-    height: 30px;
+    height: 35px;
     width:40%;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-left: 2px;
     vertical-align: middle;
     background-color: rgb(255, 255, 255);
@@ -49,10 +49,23 @@ vertical-align: top;
     z-index: 10;
     border-radius: 10px;
     margin-top: 10px; 
-    cursor:vertical-text;
     display: inline-block;
     cursor: text;
     border:none;
+}
+.searchBtn
+{
+    float: right;
+    width:25px;
+    height:25px;
+    outline:none;
+    cursor: pointer;
+    opacity: 0.2;
+    padding:0;
+    margin: 0;
+    border: 0px solid transparent;
+    border-radius: inherit;   
+    display: inline-block;
 }
 .button1
 {
@@ -97,30 +110,29 @@ vertical-align: top;
     float:left;
     height:60px;
     width: 110px;
-    padding-left: 15px;padding-top: 5px;
+    padding-left: 15px;
+    padding-top: 5px;
     vertical-align: middle; 
 }
 .menu
 {
     width:100%;
     height: 45px;
-        background-color: #f5f1f1;
+    background-color: #f5f1f1;
 }
     
 .cat1
 {
     float:left;
     padding-top:20px ;
-    padding-left:25px ;
-    padding-right:15px;
+    padding-left:20px ;
     vertical-align: baseline;
-    box-sizing: border-box;
-    cursor:pointer;display: flex;outline:none;
+    cursor:pointer;  
+    outline:none;
     text-decoration: none;
     color:#5856d6;
     font-family:Arial;
     font-size: 14px;
-    font-style:initial;
     text-transform: uppercase;
     letter-spacing: 0.2px;
     min-width:200px;font-weight:700;
@@ -128,10 +140,6 @@ vertical-align: top;
 .cat2
 {
     float:left;
-    padding-top:20px ;
-    padding-left:20px ;
-    padding-right:15px;
-    vertical-align: baseline;
     box-sizing: border-box;
     cursor:pointer;display: flex;outline:none;
     text-decoration: none;
@@ -141,12 +149,8 @@ vertical-align: top;
     font-weight:700;
     text-transform: uppercase;
     letter-spacing: 0.2px;
-    min-width: 65px;
-    display: inline-block;
- 
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+    padding: 14px;
+    text-decoration: none;
 }
 .cat2:hover
 {
@@ -184,7 +188,6 @@ div.right
   .footer
   {
     float:left;
-    
     width:100%;
     height:35px;
     font-size: larger;
